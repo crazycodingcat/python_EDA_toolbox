@@ -1,4 +1,4 @@
-# Python Toolbox
+# Python EDA Toolbox
 
 This repository is a collection of convenient methods and examples for novice data scientists or anyone who wants to use Python to analyse/visualize their data but found the abundance of libraries and functions a bit daunting. It's especially painful to work with dirty data. And the bad news - real-world data is almost always dirty. For a person with bad memory like me, I always found myself googling again and again for the exact syntax just to get the charts to look the way I like, or get that complicated transformation to work the way I want. So here, I try to summarize the commonly used methods, simplify the interface and provide some wrappers around popular libraries such as Pandas, Matplotlib, Seaborn, etc., setting the default values to the optimal and provide you more convenient options to manipulate the data and charts. 
 
@@ -6,7 +6,9 @@ With this little toolbox at hand, you would be able to easily:
 
 - Plot nice charts
 - Get descriptive statistics
-- More to come...
+- Clean data
+- Run statistical tests
+- Many more...
 
 No more messy code! No more endless googling!
           
@@ -31,4 +33,4 @@ Shows the relative distribution (sum) of each class along each dimension.
 ```
 plot_bar_ratio(df, by='class')
 ```
-![](img/bar_ratio.png)
+![](img/bar_ratio1.png)
